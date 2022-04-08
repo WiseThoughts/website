@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Merriweather:wght@700&display=swap');
+
+.navbar {
+    background: none;
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar button {
+    background: none;
+    background-color: rgba(160, 207, 228, 1);
+    border: 5px double rgb(115, 91, 193);
+    padding: 20px;
+}
+
+.navbar a {
+    background: local;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+#logo {
+    background: none;
+    border: 3px solid rgb(160, 207, 228);
+    background-color: rgba(160, 207, 228, 1);
+    width: fit-content;
+    height: fit-content;
+    width: 70px;
+    height: 70px;
+}
+
+
+h1 { 
+    font-family: 'Merriweather', serif;
+    background: none;
+    color: black; 
+    font-size: 70px; 
+    text-align: center;
+    border: 5px double rgb(0, 0, 0);
+    padding: 20px;
+    background-color: rgba(221, 56, 152, 0.9);
+    width: fit-content;
+    display: flex;
+    margin: auto;
+} 
+
+h2 {
+    font-family: 'Merriweather', serif;
+    background: none;
+    font-size: 36px;
+    color: black;
+    padding: 5px;
+    background-color:rgba(160, 207, 228, 1);
+    width: fit-content;
+    margin-left: 5cm;
+}
+
+h3 {
+    background: none;
+    font-size: 32px;
+    color: black;
+    padding: 3px;
+    background-color:rgba(160, 207, 228, 1);
+    width: fit-content;
+    margin-left: 5cm;
+}
+
+h4 {
+    background: none;
+    font-size: 24px;
+    color: black;
+    padding: 3px;
+    background-color:rgba(160, 207, 228, 1);
+    width: fit-content;
+    margin-left: 5cm;
+}
+
+.lists {
+    background: none;
+    padding: 3px;
+
+    width: fit-content;
+}
+
+.lists li{
+    background: none;
+
+    margin-left: 35px;
+}
+
+*{
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgb(115, 91, 193);
+    background-image: url(images/gifwallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment: fixed;
+}
+
+/* 
+html { 
+    background: url(images/gifwallpaper.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+
+.p1 {
+    background: none;
+    background-image: url("images/codinglanugages.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(233, 38, 191);
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    border: 3px solid black;
+    width: 1200px;
+    margin: auto;
+}
+
+.p1 p {
+    background: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: auto;
+    border:3px solid #ffffff;
+}
+
+.p2 {
+    background: none;
+    color: rgb(160, 207, 228);
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    background-color: rgb(115, 91, 193);
+    background-size: contain;
+    border: 3px solid black;
+    width: 900px;
+    margin: auto;
+}
+
+.p3 {
+    background: none;
+    color: rgb(233, 38, 191);
+    text-align: left;
+    font-size: 22px;
+    padding: 15px;
+    background-size: cover;
+    background-color: rgba(160, 207, 228, 0.9);
+    border: 3px solid black;
+    width: 900px;
+    margin-left: 5cm;
+}
+
+.p4 {
+    background: none;
+    color: rgb(160, 207, 228);
+    text-align: left;
+    font-size: 22px;
+    padding: 15px;
+    background-color: rgba(87, 55, 130, 0.9);
+    background-size: cover;
+    border: 3px solid black;
+    width: 900px;
+    margin-left: 5cm;
+}
+
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.fit {
+    height: 500px;
+    width: 500px;
+}
+
+.moveover {
+    margin-left: 5cm;
+}
+
+
+
+.imgborder {
+    background: none;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: fit-content;
+    height: -400px;
+    width: 500px;
+    height: 305px;
+}
+
+
+.imgborder2 {
+    background: none;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    width: 337px;
+    height: 499px;
+}
+
+.imgborder3 {
+    background: none;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    width: 333px;
+    height: 499px;
+}
+
+.imgborder4 {
+    background: none;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    width: 338px;
+    height: 499px;
+}
+
+.imgborder5 {
+    background: none;
+    width: fit-content;
+    height: fit-content;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: 367px;
+    height: 500px;
+}
+
+.imgborder6 {
+    background: none;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    width: 351px;
+    height: 499px;
+}
+
+.imgborder7 {
+    background: none;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    width: 352px;
+    height: 499px;
+}
+
+.imgborder8 {
+    background: none;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    width: 366px;
+    height: 500px;
+}
+
+.imgborder9 {
+    background: none;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    width: 340px;
+    height: 500px;
+}
+
+
+.imgborder10 {
+    background: none;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    width: 340px;
+    height: 489px;
+}
+
+
+.imgborder11 {
+    background: none;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    width: 333px;
+    height: 500px;
+}
+
+
+.imgborder12 {
+    background: none;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    width: 333px;
+    height: 471px;
+}
+
+
+.imgborder13 {
+    background: none;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    width: 333px;
+    height: 489px;
+}
+
+
+.imgborder14 {
+    background: none;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    width: 489px;
+    height: 489px;
+}
+
+
+.imgborder15 {
+    background: none;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    width: fit-content;
+    height: fit-content;
+    width: 489px;
+    height: 367px;
+}
